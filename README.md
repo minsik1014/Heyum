@@ -11,15 +11,15 @@
 ---
 
 ## 🌟 프로젝트 소개
-**혜윰(Heyum)**은 한국어 사용자가 영미권 AI 모델(ChatGPT, Claude, Gemini 등)을 사용할 때 겪는 언어 장벽을 허물기 위해 개발된 크롬 확장프로그램입니다. 
+**혜윰 Heyum**은 한국어 사용자가 영미권 AI 모델(ChatGPT, Claude, Gemini 등)을 사용할 때 겪는 언어 장벽을 허물기 위해 개발된 크롬 확장프로그램입니다. 
 
 단순한 번역기가 아닙니다. 사용자가 한국어로 질문을 입력하면, 이를 최적의 영어 프롬프트로 변환하여 AI에게 전달하고, 다시 한국어로 결과를 받아보는 일련의 과정을 하나의 흐름으로 연결합니다.
 
-## ✨ 주요 기능
-- 🚀 **실시간 번역 팝업**: 한국어 입력 즉시 영어로 번역된 프롬프트 확인 및 수정.
-- 🤖 **멀티 플랫폼 지원**: ChatGPT, Claude, Gemini 등 주요 AI 인터페이스 완벽 대응.
-- 🎨 **커스텀 UI**: 기존 웹사이트의 UI를 해치지 않으면서도 접근성 높은 플로팅 메뉴 제공.
-- 📝 **Markdown 및 하이라이트**: 번역 결과의 가독성을 높여주는 코드 하이라이팅 및 마크다운 렌더링.
+## 주요 기능
+-  **실시간 번역 팝업**: 한국어 입력 즉시 영어로 번역된 프롬프트 확인 및 수정.
+-  **멀티 플랫폼 지원**: ChatGPT, Claude, Gemini 등 주요 AI 인터페이스 완벽 대응.
+-  **커스텀 UI**: 기존 웹사이트의 UI를 해치지 않으면서도 접근성 높은 플로팅 메뉴 제공.
+-  **Markdown 및 하이라이트**: 번역 결과의 가독성을 높여주는 코드 하이라이팅 및 마크다운 렌더링.
 
 ## 🛠 기술 스택
 - **Core**: `React 19`, `TypeScript`
@@ -52,11 +52,6 @@ npm run build
 3. **압축해제된 확장 프로그램을 로드합니다** 클릭
 4. 프로젝트의 `dist` 폴더 선택
 
-## 📸 스크린샷
-| Floating Menu | Translation Box | Prompt Modal |
-| :---: | :---: | :---: |
-| ![Menu](https://via.placeholder.com/200x150?text=Floating+Menu) | ![Translation](https://via.placeholder.com/200x150?text=Translation+Box) | ![Modal](https://via.placeholder.com/200x150?text=Prompt+Modal) |
-*(실제 스크린샷 이미지를 `assets` 폴더에 넣고 경로를 수정해 주세요!)*
 
 ## 📄 라이선스
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
